@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int i=5,j=2,k=2,m=2,sum=0;
+	printf("please input number");
+	scanf("%d %d",&i,&j);
+  k=m=2;
+	while(i>1)
+	{
+		k*=10;
+		m+=k;
+		sum+=m;
+		i--;
+	}
+	sum+=j;
+	printf("%d\n",sum);
+}
